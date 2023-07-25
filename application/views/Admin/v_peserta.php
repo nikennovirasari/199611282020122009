@@ -50,7 +50,7 @@
                                                  <td><?php echo $hasil['satuan_kerja']; ?></td>
                                                  <td><?php echo $hasil['posisi_yang_dipilih']; ?></td>
                                                  <td><?php echo $hasil['bahasa_pemrograman_yang_dikuasai']; ?></td>
-                                                 <td><?php if($hasil['framework_bahasa_pemrograman_yang_dikuasai']){echo $hasil['framework_bahasa_pemrograman_yang_dikuasai'];}  ?></td>
+                                                 <td><?php if(isset($hasil['framework_bahasa_pemrograman_yang_dikuasai'])){echo $hasil['framework_bahasa_pemrograman_yang_dikuasai'];}  ?></td>
                                                  <td><?php echo $hasil['database_yang_dikuasai']; ?></td>
                                                  <td><?php echo $hasil['tools_yang_dikuasai']; ?></td>
                                                  <td><?php echo $hasil['pernah_membuat_mobile_apps']; ?></td>
