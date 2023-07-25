@@ -12,19 +12,15 @@ class M_pihak extends CI_Model
     public function get_data_attribut($id)
     {
         
-        
         $items  = json_decode(file_get_contents("http://103.226.55.159/json/data_attribut.json"), true);
-        function filterByDow($items, $dow = 1){
-            return array_filter($items, function($item) use ($dow) {
-                if($item['id_pendaftar'] == $dow){
-                    return true;
-                }
-            });
+       
+        $a = array_filter($items, function($item) use ($id) {
+            if($item['id_pendaftar'] == $id){
+                return true;
+            }
+        });
         
-        }
-        
-        $resultArr = filterByDow($items);
-        return $resultArr;
+        return $a;
     }
 
     
