@@ -25,11 +25,10 @@ class Seleksi extends CI_Controller
 	{
 		$res = $this->M_pihak->get_data_attribut($id);
 		$data['data']= $res;
-		var_dump($data['data']);
 		
-		// $data['title'] = "Laporan Data Peserta";
-		// $this->load->view('Temp/header2', $data);
-		// $this->load->view('Admin/v_peserta', $data);
-		// $this->load->view('Temp/footer2');
+		$data['title'] = "Laporan Data Peserta";
+		$this->load->view('Temp/header2', $data);
+		$this->load->view('Admin/v_view_dup', $data);
+		$this->load->view('Temp/footer2');
 	}
 }

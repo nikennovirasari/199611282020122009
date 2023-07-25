@@ -55,7 +55,7 @@
                                                  <td><?php echo $hasil['tools_yang_dikuasai']; ?></td>
                                                  <td><?php echo $hasil['pernah_membuat_mobile_apps']; ?></td>
                                                  <td width="150px">
-                                                     <!-- <a href="<?php echo base_url('seleksi/attribut/' . $hasil['id']) ?>" class="btn btn-warning btn-sm" title="Detail"><i class="fas fa-eye"></i></a> -->
+                                                     <a href="<?php echo base_url('seleksi/attribut/' . $hasil['id']) ?>" class="btn btn-warning btn-sm" title="Detail"><i class="fas fa-eye"></i></a>
                                                  </td>
                                              </tr>
                                          <?php endforeach; ?>

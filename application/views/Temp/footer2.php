@@ -11,7 +11,7 @@
  <footer class="main-footer" style="color:#000000; background-color:#e56717; opacity:0.8;">
      <!-- To the right -->
      <div class="float-right d-none d-sm-inline">
-         Aplikasi Cek Keaslian Akta Cerai dan/atau Duplikat Akta Cerai
+         
      </div>
      <!-- Default to the left -->
      <strong>Copyright &copy; 2022 Pengadilan Agama Bojonegoro.</strong> Load Time : {elapsed_time}
