@@ -71,7 +71,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <!-- <img src="<?php echo base_url() ?>assets/img/logo.png" alt="AdminLTE Logo" class="brand-image" style="opacity: .8"> -->
                 </a>
                 <div class="float-left d-none d-sm-inline">
-                    Aplikasi Cek Keaslian Akta Cerai dan/atau Duplikat Akta Cerai
+                    Seleksi Tim Development MA RI
                 </div>
                 <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
